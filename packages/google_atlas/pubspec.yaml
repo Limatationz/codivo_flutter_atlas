@@ -1,0 +1,32 @@
+name: google_atlas
+description: Google Map Provider for Atlas, an extensible map abstraction for Flutter with support for multiple map providers
+version: 0.8.0
+repository: https://github.com/bmw-tech/atlas
+issue_tracker: https://github.com/bmw-tech/atlas/issues
+homepage: https://bmw-tech.github.io/atlas
+publish_to: none # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  atlas:
+    git:
+      url: https://bitbucket.org/codivo/flutter_atlas
+      path: packages/atlas
+  google_maps_flutter: ^2.2.0
+  custom_marker: ^1.0.0
+  rxdart: ^0.27.5
+  custom_info_window: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

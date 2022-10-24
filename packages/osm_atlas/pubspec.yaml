@@ -1,0 +1,28 @@
+name: osm_atlas
+description: Open Street Map Provider for Atlas, an extensible map abstraction for Flutter with support for multiple map providers
+version: 0.0.1
+repository: https://bitbucket.org/codivo/flutter_atlas
+publish_to: none # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  atlas:
+    git:
+      url: https://bitbucket.org/codivo/flutter_atlas
+      path: packages/atlas
+  flutter_map: '2.2.0'
+  flutter_map_marker_popup: ^3.2.0
+  flutter_map_location_marker: ^4.1.4
+  cached_network_image: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

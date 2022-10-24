@@ -1,0 +1,4 @@
+enum CameraStatus {
+  idle,
+  moving,
+}
