@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   atlas:
     git:
-      url: https://bitbucket.org/codivo/flutter_atlas
+      url: https://github.com/Limatationz/codivo_flutter_atlas.git
       path: packages/atlas
   flutter_map: '2.2.0'
   flutter_map_marker_popup: ^3.2.0

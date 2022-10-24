@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   atlas:
     git:
-      url: https://bitbucket.org/codivo/flutter_atlas
+      url: https://github.com/Limatationz/codivo_flutter_atlas.git
       path: packages/atlas
   google_maps_flutter: ^2.2.0
   custom_marker: ^1.0.0
